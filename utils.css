@@ -1,0 +1,29 @@
+.flex{
+    display:flex;
+}
+.items-center {
+    align-items: center;
+
+
+} 
+
+.justify-center{
+    justify-content: center;
+
+}
+
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color: rgb(191, 210, 210);
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

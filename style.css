@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html , body {
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.left img{
+    width: 103px;
+    height: 53px;
+}
+
+
+
+.search{
+    background: #dfdfdf;
+    border-radius: 5px;
+    width: 34vw;
+    border: 0.5px solid #c5c5c5;
+    padding: 7px 17px;
+
+}
+header{
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.box{
+    display: flex;
+    margin: 12px;
+   }
+
+
+
+nav{
+    padding-top: 13px;
+    font-size: 13px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background-color: rgb(245, 243, 243);
+    /* height: 122vh; */
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight: bolder
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.off{
+    height: 15vw;
+    margin: 12px 0;
+    width: 100%;
+}
+.Blast{
+    width: 85vw;
+    padding: 0px 6vw;
+}
+.corner{
+    height: 116px;
+    margin: 12px 0;
+    width: 100%;
+}
+
+.flat-off{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+}
+.image{
+    margin-left: 23px;
+    margin-right: 67px;
+}
+
+.flex{
+    flex-wrap: wrap;
+}
+
+.itemImg {
+    margin-inline: auto;
+    width: 16vw;
+    padding: 0px;
+    height: 20vw;
+    
+    
+  }
+
+  /* .category{
+    height: 116px;
+    margin: 12px 0;
+    width: 10%;
+  }
+  */
+
+  .section2{
+    justify-content:space-between;
+    margin: 8px 45px;
+    gap: 1rem;
+}
+
+.flat-off{
+    border-radius: 15px;
+}
+
+@media (max-width:1200px) {
+
+    nav ul li {
+        font-size: 10px;
+        list-style: none;
+        padding: 0px 4px;
+    }
+
+    /* @media (max-width: 1200px)
+    .left img {
+        margin-top: 0px;
+        margin-bottom: -54px;
+        width: 103px;
+        height: 53px;
+        margin-left: -121px;
+    }
+     */
+    
+    header{
+        height: 189px;
+        /* flex-direction: column; */
+        background: red;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    
+    }
+   .box{
+    display: flex;
+    margin: 12px;
+   }
+
+}
+
+.link:hover {
+    background-color: yellow;
+    font-size: 14px;
+    border-radius: 43px;
+  }
+  
